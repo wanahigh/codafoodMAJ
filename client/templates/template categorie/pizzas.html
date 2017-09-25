@@ -1,0 +1,23 @@
+<template name="boissons">
+    <div class="post">
+        {{> panier}}
+        <form class="article"></form>
+        <div class="postsList">
+            {{#each pizzas}}
+                <form class="articles">
+                    <br><img src="/images/{{image}}" alt="" height="100px">
+                    <h2> {{name}}</h2>
+                    <h3>
+                        <span> {{description}}</span>
+                        <br><br>
+                        <span> {{price}}€</span>
+                        <span> <input type="number"  min="0" max="25" name="" value="" class="">
+                        <a href="#!" onclick="Materialize.toast('Ajouté au panier', 2500)" input="submit" class="btn waves-effect waves-teal">Ajouter</a></span><br><br>
+                    </h3>
+                </form>
+            {{/each}}
+        </div>
+    </div>
+</template>
+
+

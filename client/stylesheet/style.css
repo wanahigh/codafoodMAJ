@@ -1,0 +1,40 @@
+.nav-wrapper {
+ background-position: left;
+}
+
+ div.postsList{
+     background-image: url('/images/bg1.jpeg');
+ }
+
+
+img {
+   margin-left:25%;
+}
+
+btn{
+    margin-left:25%;
+}
+
+h2{
+    color:greenyellow;
+    text-align:center;
+}
+
+span{
+    font-size:0.5em;
+    color:white;
+    text-align: center;
+}
+
+
+input.btn.waves-effect.waves-light{
+    margin-left:25%;
+}
+
+.side-nav{
+
+}
+
+a{
+    color:white;
+}

@@ -1,0 +1,21 @@
+<template name="header">
+
+
+    <nav>
+        <div style="background-image: url('/images/green1.png')" class="nav-wrapper #795548 brown">
+            <a href="#!" class="brand-logo">CodaFOOD</a>
+            <a href="#" data-activates="mobile-demo " class="button-collapse  pulse"><i class="material-icons">menu</i></a>
+
+            <ul style="background-color:greenyellow" class="side-nav" id="mobile-demo">
+                <img src="/images/logo.png" alt="">
+                <li><a href="{{pathFor 'categoriesList'}}">La carte</a></li>
+                <li><a href="">pannier</a></li>
+                <li>{{> loginButtons}}</li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>$(".button-collapse").sideNav();
+
+    </script>
+</template>
